@@ -14,6 +14,7 @@ We perform evaluation using 2 metrics:
 
 ### Differential diagnosis of MI and BER in case of significant ST-elevation
 
+#### Differential diagnosis between MI and BER
 Performed with `diagnose_with_risk_markers` with either original formula or tuned.
 
 Balanced accuracy is used for evaluation.
@@ -23,3 +24,12 @@ Balanced accuracy is used for evaluation.
 | original  | 51.43%  |
 | tuned  | 58.29%  |
 
+#### Differential diagnosis between MI, BER, and other
+Performed with `check_BER_with_NN` and `check_MI_with_NN`.
+
+F1-score is used to evaluate each.
+
+| diagnosis | F1-score  |
+| --- | --- |
+| BER  | 33.79%  |
+| MI  | 56.55%  |
