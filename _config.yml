@@ -1,5 +1,5 @@
 title: "ECG Recognition Library"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
 markdown: kramdown
 description: > # this means to ignore newlines until "baseurl:"
   <div class='menu-group'>
